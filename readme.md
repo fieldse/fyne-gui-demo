@@ -6,7 +6,7 @@ A simple GUI widget for testing Fyne on Mac M1 silicon
 
 -   Macbook with M1 silicon hardware
 -   Go 1.19+ (may work with older versions)
--   System libraries? (maybe need to install something via `brew`)
+-   Fyne application libraries (see installation instructions below)
 
 ### Installation
 
