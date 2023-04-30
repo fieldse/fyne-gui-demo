@@ -10,16 +10,38 @@ A simple GUI widget for testing Fyne on Mac M1 silicon
 
 ### Installation
 
-Build the project
+1. Install fyne
 
-```sh
+```
+go install fyne.io/fyne/v2/cmd/fyne@latest
+```
+
+2. Build the project
+
+```
 go mod tidy
 go build app/main.go
 
 ```
 
+**(Optional) Compiling desktop application**
+
+This installs the application with icons etc. in your system applications directory
+
+```
+fyne install
+```
+
 ### Usage
 
-```sh
+Run the application
+
+```
 go run app/main.go
 ```
+
+### Screenshots
+
+![Screenshot 1](img/screenshots/1.png?raw=true)
+
+![Screenshot 2](img/screenshots/2.png?raw=true)
